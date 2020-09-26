@@ -1,0 +1,199 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(../img/cancha_gigante.jpg);
+    background-size: cover;
+    z-index: 900;
+}
+
+header{
+    text-align: right;
+    vertical-align: top;
+    font-size: 3em;
+    filter: blur(0.02em);
+    margin-bottom: 4.5em;
+}
+
+div.cabecera{
+    box-shadow: green 0.3em 0.4em 0.4em 0.3em;
+    margin: 0.5em 4em;
+    min-width: 50em;
+    max-width: 65em;
+    min-height: 10em;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(0deg, yellow, green);
+    position: fixed;
+    top: 4.5em;  
+    z-index: 1;  
+}
+
+h1{
+    position: relative;
+    top: 0.5em;
+    right: 1em;
+    text-align: right;
+    color: orange;
+    font-family: sans-serif;
+    font-size: 160%;
+    text-shadow: rgba(61, 41, 4, 0.87) 0.3em 0.3em 0.3em ;  
+}
+
+#logo{
+    position: absolute;
+    height: 11em;
+    width: 11em;
+    top: -0.3em;
+    left: -3.5em;
+}
+
+nav{
+    position: relative;
+    top: -0.8em;  
+    left: 3em;
+}
+
+nav li{
+    display: inline-block ;
+    height: 1em; 
+    padding: 1em 1.5em 0 2.5em;
+    font-weight: bolder; 
+    font-size: 1.2em;
+}
+
+aside{
+    margin-top:10em;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    line-height: 0.5em;  
+    background: -webkit-linear-gradient(100deg,rgba(255, 166, 0, 0.719), rgba(255, 255, 0, 0.747), green);
+    box-shadow: green 0.3em 0.4em 0.4em 0.3em;
+    width: 90%;
+    border-radius: 20px;
+    padding: 1% 1%;
+}
+
+aside h2, h3{
+    padding-left: 1em;
+}
+
+section{
+    position: relative;
+    margin: 1em 0 5em 8%;
+    font-family: sans-serif;
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 2em;
+    padding-left: 18em;
+    max-width: 60%;
+    height: 320px;
+    background: rgba(107, 235, 48, 0.773);
+    border-radius: 1em;
+    background-image: url(../img/soccer_image1.jpg);
+    background-repeat: no-repeat; 
+}
+
+h2{
+    color: orange;
+    text-shadow: rgba(61, 41, 4, 0.87) 0.1em 0.1em 0.1em ;
+}
+
+article{
+    position: relative;
+    margin:1em 0em 2em 5%;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 2% 2em 3% 2em;
+    background: -webkit-linear-gradient(100deg,rgba(255, 166, 0, 0.719), rgba(255, 255, 0, 0.747), green);
+    border-radius: 1em;
+    width: 85%;
+    
+}
+
+fieldset{
+    border-color: transparent;
+}
+
+article ul{
+    list-style-type: square;
+}
+
+#circle{
+    list-style-type: circle;
+}
+
+table{
+    position: relative;
+    padding: 2% 3%;
+    margin: 0.5em 0 2em 10%;
+    width: 75%;
+    background-color: greenyellow;
+    box-shadow: green 0.3em 0.3em 0.3em 0.3em;
+    background: rgba(107, 235, 48, 0.773);
+    border-radius: 1em;
+ }  
+ 
+ td.mapa{
+    padding: 0.5em;
+    background: -webkit-linear-gradient(10deg, greenyellow,  orange);
+ }
+
+.date{ /*la fecha tiene que ir mas a la derecha en la primer columna*/
+    padding-left: 1.2em;
+    padding-top: 0;
+}
+ 
+th{
+    text-align: left;
+    text-decoration: underline;
+}
+
+td{
+    white-space: normal;
+}
+
+a:link {
+    text-decoration: none;
+ }
+
+a:hover{
+    font-weight: bolder;
+    font-style: italic;
+ }
+
+ #no_underline{
+    text-decoration: unset;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+label, caption{
+    margin: 1em 1em;
+    font-weight: bolder;
+}
+
+
+div{
+    margin: 0.8em 0.2em 0.5em 0;
+}
+
+input{
+    margin: 0.1em 0.2em;
+    box-shadow: yellowgreen 0.1em 0.1em 0.1em 0.1em;
+}
+
+#submit{
+    margin-top: 1em;
+    float: right;
+    background-color: greenyellow;
+    box-shadow: green 0.3em 0.3em 0.3em 0.3em ;
+    border-radius: 1em;
+    width: 15em;
+    height: 3em;
+    background: -webkit-linear-gradient(10deg, greenyellow,  orange);
+}
+
