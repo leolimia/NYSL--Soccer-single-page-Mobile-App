@@ -1,8 +1,9 @@
 # NYSL
-![NYSL]( img/nysl_logo.png)
-.. image:: :height: 100px :width: 100 px :scale: 50 % 
+![NYSL]( img/nysl_logo.png | width=100)
 
-## :soccer: Soccer single page Mobile App with live chat:
+## :soccer: Soccer single page Mobile App with live chat, maps location and opinien Blog
+
+:computer: All made with:
 
 - JS
 - Vue.js
