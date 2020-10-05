@@ -1,6 +1,6 @@
 # NYSL
-![NYSL]( img/nysl_logo.png)
-<img src="img/nysl_logo.png" width="48">
+
+<img src="img/nysl_logo.png" width="150">
 
 ## :soccer: Soccer single page Mobile App with live chat, maps location and opinien Blog
 
